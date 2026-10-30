@@ -1,37 +1,41 @@
-# Остров — Dynamic Island для Windows
+# Ostrov — Dynamic Island for Windows
 
-Маленькая чёрная пилюля сверху экрана, как на iPhone. Показывает, что играет, даёт управлять музыкой, помнит скопированный текст и сама играет музыку из папок на компьютере.
+**English** · [Русский](README.ru.md)
 
-<p align="center"><img src="docs/player.gif" width="420" alt="Плеер, свечение и настройки"></p>
+A small black pill at the top of your screen, just like on the iPhone. It shows what's playing, lets you control your music, remembers what you copy, and can play music from folders on your computer by itself.
 
-## Что умеет
+<p align="center"><img src="docs/player.gif" width="420" alt="Player, glow and settings"></p>
 
-- **Любой плеер.** Spotify, Яндекс Музыка, YouTube и VK в браузере, AIMP, Волна и другие: обложка, перемотка, пауза, следующий и предыдущий трек.
-- **Мягкий свет из обложки.** Вокруг острова светятся цвета текущей обложки и медленно «дышат», пока играет музыка.
-- **Буфер обмена.** На Ctrl+C пузырь с текстом влетает в остров. Последние 30 текстов всегда под рукой, клик — и текст снова в буфере.
-- **Музыка из папок.** Добавьте папку — Остров сам сыграет mp3, flac, m4a, ogg и wav, с обложками, очередью и перемешиванием.
-- **Всё в одном острове.** Настройки и буфер выезжают вниз под плеером, отдельных окон нет.
-- **Громкость и медиаклавиши** прямо на острове.
-- **Не мешает.** Не всплывает поверх игр и видео на весь экран и не забирает фокус у окна, где вы печатаете.
+## Features
+
+- **Works with any player.** Spotify, Yandex Music, YouTube and VK in the browser, AIMP, Volna and more: cover art, seeking, play/pause, next and previous track.
+- **Soft glow from the cover art.** The island glows in the colors of the current cover and slowly "breathes" while music is playing.
+- **Clipboard.** Press Ctrl+C and a bubble with your text flies into the island. Your last 30 copied texts are always at hand — click one to put it back on the clipboard.
+- **Music from folders.** Add a folder and Ostrov plays mp3, flac, m4a, ogg and wav on its own, with cover art, a queue and shuffle.
+- **Everything in one island.** Settings and the clipboard slide down below the player — no separate windows.
+- **Volume and media keys** right on the island.
+- **Stays out of your way.** It doesn't pop up over full-screen games and videos and never steals focus from the window you're typing in.
 
 <p align="center">
-  <img src="docs/clipboard.gif" width="300" alt="Копирование в остров">
-  <img src="docs/music.png" width="300" alt="Музыка из папки и очередь">
+  <img src="docs/clipboard.gif" width="300" alt="Copying into the island">
+  <img src="docs/music.png" width="300" alt="Music from a folder with a queue">
 </p>
 <p align="center">
-  <img src="docs/settings.png" width="300" alt="Настройки">
-  <img src="docs/clipboard.png" width="300" alt="Буфер обмена">
+  <img src="docs/settings.png" width="300" alt="Settings">
+  <img src="docs/clipboard.png" width="300" alt="Clipboard history">
 </p>
 
-## Установка
+The interface is currently in Russian.
 
-1. Скачайте `Island.exe` со страницы [Releases](../../releases/latest).
-2. Запустите. Остров живёт в трее у часов: левый клик — настройки, правый — меню.
+## Installation
 
-Нужны Windows 10 или 11. При первом запуске Windows может предупредить о неизвестном издателе — нажмите «Подробнее» → «Выполнить в любом случае».
+1. Download `Island.exe` from the [Releases](../../releases/latest) page.
+2. Run it. Ostrov lives in the system tray next to the clock: left-click opens settings, right-click opens the menu.
 
-**Горячая клавиша** по умолчанию `Ctrl+Alt+Пробел` — раскрыть или спрятать остров. Колёсико вниз над плеером открывает музыку, буфер и настройки.
+Requires Windows 10 or 11. On first launch Windows may warn about an unknown publisher — click "More info" → "Run anyway".
 
-## Приватность
+**Hotkey:** `Ctrl+Alt+Space` by default — expand or hide the island. Scroll down over the player to open music, clipboard and settings.
 
-Остров ничего не отправляет в интернет. Скопированный текст хранится только в памяти и пропадает при выходе, а тексты, которые менеджеры паролей помечают как «не сохранять», не запоминаются.
+## Privacy
+
+Ostrov doesn't send anything to the internet. Copied text is kept in memory only and disappears when you quit, and texts that password managers mark as "do not store" are never remembered.
